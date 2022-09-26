@@ -1,0 +1,29 @@
+{
+    "name": "motasim-creedbear",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --watch server --exec node server/bin/www",
+        "dev": "concurrently \"npm start\" \"cd ./client && npm run start\"",
+        "server": "nodemon server/bin/www",
+        "client": "npm start --prefix client",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --force --prefix client && npm run build --prefix client"
+    },
+    "dependencies": {
+        "@faker-js/faker": "^7.5.0",
+        "cookie-parser": "~1.4.4",
+        "cors": "^2.8.5",
+        "debug": "~2.6.9",
+        "dotenv": "^16.0.2",
+        "ejs": "~2.6.1",
+        "express": "~4.16.1",
+        "http-errors": "~1.6.3",
+        "morgan": "~1.9.1",
+        "validatorjs": "^3.22.1"
+    },
+    "devDependencies": {
+        "concurrently": "^6.3.0",
+        "nodemon": "^2.0.20"
+    }
+}
