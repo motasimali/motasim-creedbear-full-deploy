@@ -1,6 +1,6 @@
 const { faker } = require("@faker-js/faker");
 
-faker.seed(100);
+// faker.seed(100);
 
 function createRandomUser() {
   return {
