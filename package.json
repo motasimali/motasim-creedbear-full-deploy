@@ -20,10 +20,10 @@
         "express": "~4.16.1",
         "http-errors": "~1.6.3",
         "morgan": "~1.9.1",
-        "validatorjs": "^3.22.1"
+        "validatorjs": "^3.22.1",
+        "nodemon": "^2.0.20"
     },
     "devDependencies": {
         "concurrently": "^6.3.0",
-        "nodemon": "^2.0.20"
     }
 }
