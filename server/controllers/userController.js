@@ -1,4 +1,4 @@
-const Users = require("../models/Users");
+const Users = require("../models/users");
 const { totalItems, totalPages, paginate } = require("../helpers/paginate");
 const {
   PAGINATION_DEFAULT_SIZE,

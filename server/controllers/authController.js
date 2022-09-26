@@ -1,5 +1,5 @@
 const timer = require("../helpers/timer");
-const Users = require("../models/Users");
+const Users = require("../models/users");
 
 exports.handleLogin = async (req, res) => {
   const { email } = req.body;

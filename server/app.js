@@ -10,7 +10,7 @@ const cors = require("cors");
 const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
 const authRouter = require("./routes/auth");
-const Users = require("./models/Users");
+const Users = require("./models/users");
 
 const app = express();
 
